@@ -1,0 +1,65 @@
+1)
+oddMultOf3(171).
+oddMultOf3(100).
+oddMultOf3(12).
+oddMultOf3(4.2).
+oddMultOf3(-9).
+
+2)
+list_prod([4,3], Product).
+list_prod([7,8,0,13], Product).
+list_prod([6,2,5,10], Product).
+list_prod([], Product).
+
+3)
+palindrome([4,3,4]).
+palindrome([7,2,5,7]).
+palindrome([d,4,4,d]).
+palindrome([]).
+palindrome([a]).
+
+4)
+secondMin([17,29,11,62,37,53], M2).
+secondMin([512], M2).
+secondMin([7,5.2,3,6,-3.6,9,-2], M2).
+secondMin([12,2,b,7], M2).
+secondMin([3,3,3], M2).
+
+5)
+classify([8,7,6,5,4,3], Even, Odd).
+classify([7,2,3,5,8], Even, Odd).
+classify([-4,11,-7,9,0], Even, Odd).
+classify([5,13,29], Even, Odd).
+classify([], Even, Odd).
+
+6)
+bookends([1],[3,4,5],[1,2,3,4,5]).
+bookends([],[4],[1,2,3,4]).
+bookends([8,7,3],[3,4],[8,7,3,4]).
+bookends([6],[9,3],[6,9,3,7]).
+bookends([],[],[2,4,6]).
+bookends([23],[23],[23]).
+
+7)
+subslice([2,3,4],[1,2,3,4]).
+subslice([8,13],[3,4,8,13,7]).
+subslice([3],[1,2,4]).
+subslice([],[1,2,4]).
+subslice([1,2,4],[]).
+
+8)
+shift([a,b,c,d,e,f,g,h],3,Shifted).
+shift([1,2,3,4,5],1,Shifted).
+shift([a,b,c,d,e,f,g,h],-2,Shifted).
+
+9)
+luhn(799273987104).
+luhn(49927398717).
+luhn(49927398716).
+
+10)
+path(b,d)
+path(e,b)
+path(c,a)
+cycle(b)
+cycle(c)
